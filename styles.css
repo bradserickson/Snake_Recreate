@@ -1,0 +1,45 @@
+body {
+  background-color: gray;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.scoreboard {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gamebox {
+  box-sizing: content-box;
+  width:1200px;
+  height: 900px;
+  color: white;
+  background-color: black;
+  outline: 5px solid black;
+}
+
+.row {
+  display: flex;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  height: 25px;
+}
+
+.pixel {
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  outline: 1px solid lightgrey;
+}
+
+.pixel.head {
+  background-color: green;
+  outline: none;
+}
