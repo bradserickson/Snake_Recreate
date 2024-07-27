@@ -16,13 +16,14 @@ body {
   font-style: normal;
 }
 
-.gamebox {
+.gameboard {
   box-sizing: content-box;
   width:1200px;
   height: 900px;
   color: white;
   background-color: black;
   outline: 5px solid black;
+  z-index: 0;
 }
 
 .row {
@@ -42,4 +43,14 @@ body {
 .pixel.head {
   background-color: green;
   outline: none;
+}
+
+.gameboard.game-over {
+  box-sizing: content-box;
+  width:1200px;
+  height: 900px;
+  color: white;
+  background-color: black;
+  outline: 5px solid black;
+  z-index: 999;
 }
