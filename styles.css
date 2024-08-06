@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: #171717;
 }
 .wrapper {
   display: flex;
@@ -10,6 +10,7 @@ body {
 
 .scoreboard {
   font-size: 36px;
+  color: gainsboro;
   margin-bottom: 10px;
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
